@@ -1,0 +1,32 @@
+Package: MultichannelSeqimpute
+Type: Package
+Title: Imputation of Missing Data in Sequence Analysis
+Version: 1.0.0
+Author: Kevin Emery
+Date: 2024-12-27
+Maintainer: Andre Berchtold <kevin.emery@unige.ch>
+Description: Multiple imputation of missing data present in a dataset through the prediction based on either a random forest or a multinomial regression model. Covariates and time-dependant covariates can be included in the model. The prediction of the missing values is based on the theory of Prof. Brendan Halpin.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports: 
+    Amelia,
+    rms,
+    stringr,
+    TraMineR,
+    cluster,
+    plyr,
+    dplyr,
+    dfidx,
+    mice,
+    foreach,
+    parallel,
+    doRNG,
+    doSNOW,
+    ranger,
+    mlr,
+    nnet,
+    TraMineRextras,
+    lifecycle,
+    seqimpute
